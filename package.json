@@ -11,9 +11,19 @@
   ],
   "license": "MIT",
   "author": "Joe Yates <joe.g.yates@gmail.com>",
-  "type": "commonjs",
-  "main": "index.js",
+  "repository": "github:joeyates/payload-commons",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@payloadcms/ui": "^3.47.0",
+    "payload": "^3.47.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
