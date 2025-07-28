@@ -1,0 +1,19 @@
+{
+  "name": "payload-commons",
+  "version": "0.0.1",
+  "description": "PayloadCMS components and utilities",
+  "keywords": [
+    "payload",
+    "payloadcms",
+    "components",
+    "elements",
+    "fields"
+  ],
+  "license": "MIT",
+  "author": "Joe Yates <joe.g.yates@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
