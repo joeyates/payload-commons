@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "vitest": "^3.2.4"
   }
 }
