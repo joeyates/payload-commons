@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+packages:
+  - test/support/app
