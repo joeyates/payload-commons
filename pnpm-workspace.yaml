@@ -1,5 +1,8 @@
-onlyBuiltDependencies:
-  - esbuild
-  - sharp
 packages:
   - test/support/app
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - sharp
+  - unrs-resolver
