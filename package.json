@@ -1,6 +1,6 @@
 {
   "name": "payload-commons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PayloadCMS components and utilities",
   "keywords": [
     "payload",
@@ -14,7 +14,11 @@
   "repository": "github:joeyates/payload-commons",
   "type": "module",
   "main": "dist/index.js",
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js",
+    "./fields": "./dist/fields/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "check-types": "tsc --noEmit --outDir /tmp",

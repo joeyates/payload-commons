@@ -19,7 +19,7 @@ export const Post: CollectionConfig = {
       admin: {
         components: {
           Field: {
-            path: '../../../..#SlugField',
+            path: '../../../../src/fields#SlugField',
             clientProps: {
               source: 'title'
             }

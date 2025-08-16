@@ -1,5 +1,5 @@
-import { SlugField as SlugField_ebc5562f07f2613ae6d39b8035f27880 } from '../../../../../../..'
+import { SlugField as SlugField_5118efc018092315c630d803fa8bcc2b } from '../../../../../../../src/fields'
 
 export const importMap = {
-  "../../../..#SlugField": SlugField_ebc5562f07f2613ae6d39b8035f27880
+  "../../../../src/fields#SlugField": SlugField_5118efc018092315c630d803fa8bcc2b
 }
