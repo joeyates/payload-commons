@@ -17,6 +17,7 @@
   "exports": "./dist/index.js",
   "scripts": {
     "build": "tsc",
+    "check-types": "tsc --noEmit --outDir /tmp",
     "runts": "cross-env NODE_OPTIONS=\"--no-deprecation --no-experimental-strip-types\" node --no-deprecation --no-experimental-strip-types --import @swc-node/register/esm-register",
     "test": "pnpm runts ./test/run.ts"
   },
