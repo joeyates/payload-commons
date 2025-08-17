@@ -1,6 +1,6 @@
 {
   "name": "payload-commons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PayloadCMS components and utilities",
   "keywords": [
     "payload",
@@ -17,7 +17,8 @@
   "exports": {
     ".": "./dist/index.js",
     "./components": "./dist/components/index.js",
-    "./fields": "./dist/fields/index.js"
+    "./fields": "./dist/fields/index.js",
+    "./validations": "./dist/validations/index.js"
   },
   "scripts": {
     "build": "tsc",
